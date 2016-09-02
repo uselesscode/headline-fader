@@ -129,7 +129,7 @@ The callback receives 3 arguments:
 // on the last one
 onUpdate: function (headline, index, len) {
   if (index === len - 1) {
-    headlines.stop();
+    headlinesWidget.stop();
   }
 },
 ```
@@ -199,7 +199,7 @@ of the list.
 
 ```javascript
 // loading new shorter headlines, speed things up a bit
-headlines.changeOptions({
+headlinesWidget.changeOptions({
   wait: 500,
   headlines: [
     'one',
