@@ -1,0 +1,25 @@
+{
+  "name": "headline-fader",
+  "authors": [
+    "uselesscode <i-stare@uselesscode.org>"
+  ],
+  "description": "A small library for creating headline tickers that fade between headlines.",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "headline",
+    "ticker",
+    "fade"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "junk"
+  ],
+  "private": false
+}
